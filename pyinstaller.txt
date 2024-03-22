@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --clean --log-level=INFO --name=LIACDD --icon=assets\images\icon_machineLearning.ico --distpath=C:\Users\Luci\Documents\LIACDD\Dist --workpath=C:\Users\Luci\Documents\LIACDD\Build --version-file=version.txt --noconsole --hidden-import=plotly LIACDD.py

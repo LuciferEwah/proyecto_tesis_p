@@ -1,0 +1,15 @@
+
+
+# Ignorar directorios específicos
+venv/
+__pycache__/
+dist/
+build/
+#Ignora archivos con extesiónes espesificas
+
+*.xls
+*.xlsx
+*.csv
+*.bd
+
+#Si se llega a poner un archivos de estos no se subira, en caso de que pase el repositorio es privado
